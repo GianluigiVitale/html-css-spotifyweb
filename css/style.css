@@ -71,6 +71,52 @@ aside p {
     padding-right: 10px;
 }
 
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.userinfo a {
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.userinfo i {
+    padding-right: 10px;
+}
+
+.userinfo h3 {
+    padding-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.userinfo h3 i {
+    font-size: 25px;
+}
+
+@media screen and (min-width: 769px) {
+    .xs-visualization {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    aside {
+        width: 50px;
+    }
+
+    .s-md-lg-visualization {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+}
 header {
     width: calc(100vw - 225px);
     height: 75px;
@@ -86,6 +132,7 @@ main {
 
 
 footer {
+    z-index: 9999;
     width: 100vw;
     height: 100px;
     position: fixed;
