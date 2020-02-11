@@ -19,7 +19,7 @@ aside {
     flex-direction: column;
 }
 
-aside img {
+.hiddenxs {
     width: 210px;
     text-align: center;
     padding: 25px 35px 30px 25px;
@@ -71,17 +71,10 @@ aside p {
     padding-right: 10px;
 }
 
-.userinfo {
-    display: flex;
-    flex-direction: column;
-    padding: 0 30px;
-}
-
-.userinfo a {
+.userinfo .xs-visualization a {
     color: gray;
     font-size: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid gray;
 }
 
 .userinfo i {
@@ -89,7 +82,7 @@ aside p {
 }
 
 .userinfo h3 {
-    padding-top: 10px;
+    padding-top: 20px;
     color: white;
     font-size: 14px;
 }
@@ -99,8 +92,22 @@ aside p {
 }
 
 @media screen and (min-width: 769px) {
-    .xs-visualization {
+    .xs-visualization, .hiddens-md-lg {
         display: none;
+    }
+
+    .userinfo a {
+        color: gray;
+        font-size: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid gray;
+    }
+
+    .userinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 30px;
     }
 }
 
@@ -109,14 +116,37 @@ aside p {
         width: 50px;
     }
 
-    .s-md-lg-visualization {
+    aside img {
+        width: 40px;
+        margin-left: 6px;
+        padding-top: 5px;
+    }
+
+    .s-md-lg-visualization, .hiddenxs {
         display: none;
     }
 
     .playlist {
         display: none;
     }
+
+    aside .navbar {
+        padding-top: 15px;
+        padding-left: 12px;
+    }
+
+    .fa-home:before, .fa-search:before, .fa-book:before {
+        font-size: 25px;
+    }
+
+    .userinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 15px;
+    }
 }
+
 header {
     width: calc(100vw - 225px);
     height: 75px;
