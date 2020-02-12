@@ -274,5 +274,34 @@ footer {
 .paddingfooter {
     width: 100%;
     height: 100%;
-    padding: 5px;
+    padding: 15px 10px 25px 10px;
+}
+
+.userandsonginfo, .musicplayer, .iconsplayer {
+    width: 33%;
+}
+
+.btmimg {
+    float: left;
+}
+
+.btmimg img {
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.btmuserinfo {
+    float: left;
+}
+
+.btmuserinfo h6 {
+    color: white;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.btmuserinfo p {
+    color: rgb(125, 127, 132);
+    padding-top: 2px;
+    font-size: 12px;
 }
