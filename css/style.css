@@ -332,6 +332,10 @@ footer {
     }
 }
 
+.musicplayer {
+    text-align: center;
+}
+
 .songplayed {
     margin-left: 12.5%;
     width: 75%;
@@ -340,7 +344,7 @@ footer {
     border-bottom: 5px solid gray;
 }
 
-.songplayed i {
+.musicplayer i {
     color: white;
 }
 
@@ -374,4 +378,23 @@ footer {
     font-size: 12px;
     margin-bottom: 25px;
     transform: translateY(-10px);
+}
+
+.iconsplayer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconsplayer i {
+    color: white;
+    font-size: 18px;
+    margin-right: 5%;
+    padding-top: 27px;
+}
+
+.volumeline {
+    height: 39px;
+    width: 25%;
+    border-bottom: 5px solid gray;
+    margin-right: 5%;
 }
