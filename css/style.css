@@ -294,6 +294,10 @@ footer {
     float: left;
 }
 
+.btmusericons {
+    float: left;
+}
+
 .btmuserinfo h6 {
     color: white;
     padding-top: 20px;
@@ -304,4 +308,15 @@ footer {
     color: rgb(125, 127, 132);
     padding-top: 2px;
     font-size: 12px;
+}
+.btmusericons {
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 40px;
+}
+
+.btmusericons a {
+    font-size: 16px;
+    color: white;
+    padding-left: 10px;
 }
