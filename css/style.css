@@ -95,17 +95,17 @@ aside p {
     color: white;
 }
 
-.playlistcreatecenter {
+.verticalmiddle {
     display: flex;
-    align-content: center;
+    align-items: center;
 }
-
 
 .userinfo .xs-visualization a {
     color: gray;
     font-size: 15px;
     padding-bottom: 10px;
 }
+
 
 .userinfo i {
     padding-right: 10px;
@@ -300,7 +300,7 @@ main a {
 }
 
 .overlay:hover span {
-    display: visible;
+    display: block;
 }
 
 footer {
