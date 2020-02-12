@@ -279,8 +279,12 @@ footer {
 
 .userandsonginfo, .musicplayer, .iconsplayer {
     width: 33%;
+    float: left;
 }
 
+.musicplayer {
+    height: 80px;
+}
 .btmimg {
     float: left;
 }
@@ -309,14 +313,65 @@ footer {
     padding-top: 2px;
     font-size: 12px;
 }
+
 .btmusericons {
     padding-top: 15px;
     padding-left: 10px;
-    width: 40px;
+    width: 35px;
 }
 
 .btmusericons a {
     font-size: 16px;
     color: white;
     padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .btmuserinfo {
+        max-width: 30px;
+    }
+}
+
+.songplayed {
+    margin-left: 12.5%;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 5px solid gray;
+}
+
+.songplayed i {
+    color: white;
+}
+
+.fa-random {
+    font-size: 20px;
+}
+
+.fa-step-backward {
+    font-size: 21px;
+    padding-left: 5%;
+}
+
+.fa-play-circle {
+    font-size: 30px;
+    padding: 0 5%;
+}
+
+.fa-step-forward {
+    font-size: 21px;
+    padding-right: 4%;
+}
+
+.minutetime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.minutetime p {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 25px;
+    transform: translateY(-10px);
 }
