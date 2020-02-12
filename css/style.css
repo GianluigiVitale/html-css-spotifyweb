@@ -236,22 +236,23 @@ main a {
     padding-left: 30px;
 }
 
-.recentlyplayed h2,h5 {
+.musicsection h2,h5 {
     color: white;
 }
 
-.recentlyplayed h2 {
+.musicsection h2 {
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.recentlyplayed h5 {
+.musicsection h5 {
     padding: 10px 0;
 }
 
-.recentlyplayed p {
+.musicsection p {
     color: rgb(125, 127, 132);
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .music {
