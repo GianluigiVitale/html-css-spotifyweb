@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 body, button {
     font-family: 'Montserrat', sans-serif;
 }
@@ -221,8 +227,37 @@ main a {
     border-bottom: 2px solid lime;
 }
 
+#h2toptext {
+    color: white;
+    padding: 20px 0 20px 50px;
+}
+
+.container {
+    padding-left: 30px;
+}
+
 .recentlyplayed h2,h5 {
     color: white;
+}
+
+.recentlyplayed h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.recentlyplayed h5 {
+    padding: 10px 0;
+}
+
+.recentlyplayed p {
+    color: rgb(125, 127, 132);
+    font-weight: 600;
+}
+
+.music {
+    float: left;
+    text-align: center;
+    margin-right: 30px;
 }
 
 footer {
