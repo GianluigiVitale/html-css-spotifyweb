@@ -184,7 +184,45 @@ header button {
 
 main {
     width: calc(100vw - 225px);
-    margin: 75px 0 0 225px;
+    margin: 90px 0 0 225px;
+    background-color: rgb(20, 25, 34);
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: calc(100vw - 50px);
+        margin: 90px 0 0 50px;
+        background-color: rgb(20, 25, 34);
+    }
+}
+
+main a {
+    text-decoration: none;
+}
+
+.links {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links a {
+    color: rgb(125, 127, 132);
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.links a:hover {
+    border-bottom: 2px solid lime;
+}
+
+.recentlyplayed h2,h5 {
+    color: white;
 }
 
 footer {
