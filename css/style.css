@@ -24,7 +24,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     padding-bottom: 50px;
 }
@@ -173,11 +173,11 @@ aside p {
 
 header {
     background-color: black;
-    width: calc(100vw - 225px);
     height: 90px;
     position: fixed;
     top: 0;
     left: 225px;
+    right: 0;
     display: flex;
     justify-content: flex-end;
     z-index: 9999;
@@ -208,10 +208,13 @@ header button {
 }
 
 main {
-    width: calc(100vw - 225px);
-    margin: 90px 0 0 225px;
+    position: fixed;
+    top: 90px;
+    left: 225px;
+    right: 0;
+    bottom: 100px;
     background-color: rgb(20, 25, 34);
-    padding-bottom: 105px;
+    overflow-y: auto;
 }
 
 @media screen and (max-width: 768px) {
