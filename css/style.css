@@ -121,56 +121,6 @@ aside p {
     font-size: 25px;
 }
 
-@media screen and (min-width: 769px) {
-    .xs-visualization, .hiddens-md-lg {
-        display: none;
-    }
-
-    .userinfo a {
-        color: gray;
-        font-size: 15px;
-        padding-bottom: 10px;
-        border-bottom: 2px solid gray;
-    }
-
-    .userinfo {
-        padding: 0 30px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    aside {
-        width: 50px;
-    }
-
-    aside img {
-        width: 40px;
-        margin-left: 6px;
-        padding-top: 5px;
-    }
-
-    .s-md-lg-visualization, .hiddenxs {
-        display: none;
-    }
-
-    .playlist {
-        display: none;
-    }
-
-    aside .navbar {
-        padding-top: 15px;
-        padding-left: 12px;
-    }
-
-    .fa-home:before, .fa-search:before, .fa-book:before {
-        font-size: 25px;
-    }
-
-    .userinfo {
-        padding-left: 15px;
-    }
-}
-
 header {
     background-color: black;
     height: 90px;
@@ -200,13 +150,6 @@ header button {
     border-radius: 30px;
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        width: calc(100vw - 50px);
-        left: 50px;
-    }
-}
-
 main {
     position: fixed;
     top: 90px;
@@ -215,14 +158,6 @@ main {
     bottom: 100px;
     background-color: rgb(20, 25, 34);
     overflow-y: auto;
-}
-
-@media screen and (max-width: 768px) {
-    main {
-        width: calc(100vw - 50px);
-        margin: 90px 0 0 50px;
-        background-color: rgb(20, 25, 34);
-    }
 }
 
 main a {
@@ -371,12 +306,6 @@ footer {
     padding-left: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    .btmuserinfo {
-        max-width: 30px;
-    }
-}
-
 .musicplayer {
     text-align: center;
 }
@@ -442,4 +371,69 @@ footer {
     width: 25%;
     border-bottom: 5px solid gray;
     margin-right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    aside {
+        width: 50px;
+    }
+
+    aside img {
+        width: 40px;
+        margin-left: 6px;
+        padding-top: 5px;
+    }
+
+    .s-md-lg-visualization, .hiddenxs {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    aside .navbar {
+        padding-top: 15px;
+        padding-left: 12px;
+    }
+
+    .fa-home:before, .fa-search:before, .fa-book:before {
+        font-size: 25px;
+    }
+
+    .userinfo {
+        padding-left: 15px;
+    }
+
+    header {
+        width: calc(100vw - 50px);
+        left: 50px;
+    }
+
+    main {
+        position: fixed;
+        top: 90px;
+        left: 50px;
+    }
+
+    .btmuserinfo {
+        max-width: 30px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .xs-visualization, .hiddens-md-lg {
+        display: none;
+    }
+
+    .userinfo a {
+        color: gray;
+        font-size: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid gray;
+    }
+
+    .userinfo {
+        padding: 0 30px;
+    }
 }
